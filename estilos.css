@@ -23,11 +23,10 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image:linear-gradient(to top, rgba(223, 166, 151, 0.404) 0%, #e9b05a5b 100%), url(img/hell.jpg);
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(img/woman.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     
 }
 
@@ -63,7 +62,7 @@ body{
     /* 02 */
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     /* 028 */
-    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -98,7 +97,7 @@ body{
 /* Services */
 
 .subtitulo{
-    color: rgb(175, 114, 23);
+    color: #9f8ad0;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
@@ -126,7 +125,7 @@ body{
 
 .n-service{
     margin-bottom: 7px;
-    color: #d0ac8a;
+    color: #9f8ad0;
 }
 
 .number{
@@ -145,9 +144,6 @@ body{
 
 .gallery{
     background: #f2f2f2;
-}
-.gallery2{
-    background: #cfc9c9;
 }
 
 .contenedor-galeria{
@@ -187,7 +183,7 @@ body{
 }
 
 .showImage{
-    transform: scale(.7);
+    transform: scale(1);
 }
 
 .show{
@@ -230,7 +226,7 @@ body{
 }
 
 footer{
-    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    background: #9f8ad0;
     padding-bottom: 0.1px;
 }
 
@@ -252,14 +248,6 @@ footer{
 .brand{
     font-weight: 500;
     font-size: 40px;
-}
-
-.audio-mp3{
-    width: 30%;
-    display: block;
-    margin-bottom: 15px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
-    cursor: pointer;
 }
 
 .brand+p{
@@ -290,7 +278,7 @@ footer{
 
 .line{
     width: 90%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     height: 2px;
     background: #fff;
@@ -299,7 +287,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color:#e09e52;
+    color:#764ba2;
 }
 
 @media screen and (max-width: 800px){
@@ -399,4 +387,5 @@ footer{
         width: 95%;
         margin-bottom: 40px;
     }
+    
 }
